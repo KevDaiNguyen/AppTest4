@@ -1,7 +1,9 @@
-export default function Transcription() {
-    return(
-        <div>
-            djsrt
-        </div>
+import React from 'react'
+
+export default function Transcription(props) {
+    const { textElement } = props
+
+    return (
+        <div>{textElement}</div>
     )
 }
